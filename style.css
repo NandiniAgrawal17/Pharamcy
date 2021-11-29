@@ -92,11 +92,13 @@ section:nth-child(even){
     justify-content: space-between;
     /* background: rgb(221, 218, 218); */
     background: rgb(190, 190, 190);
+    
 }
 
 .header .logo{
     font-size: 2.5rem;
     color: var(--black);
+    margin-left: -20px;
 }
 
 .header .logo i{
@@ -124,7 +126,7 @@ section:nth-child(even){
     display: flex;
     align-items: center;
     /* padding-top: 9rem; */
-    margin-top:4.1%;
+    /* margin-top:3px; */
     height: 459px;
 }
 .home .image{
@@ -193,6 +195,7 @@ section:nth-child(even){
     box-shadow: var(--box-shadow);
     border:var(--border);
     padding: 2.5rem;
+    
 }
 
 .services .box-container .box i{
@@ -247,9 +250,11 @@ section:nth-child(even){
 }
 
 .doctors .box-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:2rem;
+    gap:2rem; */
+    display: flex;
+    
 }
 
 .doctors .box-container .box{
@@ -259,6 +264,15 @@ section:nth-child(even){
     border:var(--border);
     box-shadow: var(--box-shadow);
     padding:2rem;
+    margin:20px;
+    /* border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem; 
+    width:500px;
+    height: 250px;
+  
+   margin-top: -24px; */
+   
 }
 
 .doctors .box-container .box img{
@@ -275,12 +289,13 @@ section:nth-child(even){
 }
 
 .doctors .box-container .box span{
-    color:var(--green);
-    font-size: 1.5rem;
+     margin-top:-5px;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .doctors .box-container .box .share{
-    padding-top: 2rem;
+   margin-left:-40px;
 }
 
 .doctors .box-container .box .share a{
@@ -303,8 +318,8 @@ section:nth-child(even){
 .book .row{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap:2rem;
+    /* flex-wrap: wrap;
+    gap:2rem; */
 }
  
 .book .row .image{
